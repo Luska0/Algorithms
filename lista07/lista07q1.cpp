@@ -1,3 +1,10 @@
+/*Aluno: Lucas Emanoel Ribeiro Santana
+  Turma: IF23
+  Professor: Josenalde Barbosa de Oliveira
+                  Lista de Exercícios 7
+                        Questão 1
+1)  Faça um programa que leia uma string e a imprima na tela.
+*/
 #include <iostream>
 #include <string>
 using namespace std;
