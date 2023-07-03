@@ -11,7 +11,7 @@ using namespace std;
 int main() {
     string input;
     cout << "Digite uma string: ";
-    getline(std::cin, input);
+    getline(cin, input);
 
     if (input.length() >= 4) {
         string fourLetters = input.substr(0, 4);
