@@ -10,12 +10,15 @@
 using namespace std;
 int main() {
     string input;
+ //Peça para o usuario digitar uma string qualquer.   
     cout << "Digite uma string: ";
     getline(cin, input);
 
     if (input.length() >= 4) {
         string fourLetters = input.substr(0, 4);
+    //Exiba as quatro primeiras letras da string    
         cout << "As quatro primeiras letras são: " << fourLetters << endl;
+    //Se a string digitada tiver menos do que 4 letras, exiba:
     } else {
         cout << "A string digitada é muito curta." << endl;
     }
