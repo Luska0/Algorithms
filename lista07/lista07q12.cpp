@@ -15,7 +15,7 @@ int main() {
 
     // Solicita a entrada da string S
     cout << "Digite a string S: ";
-    getline(std::cin, S);
+    getline(cin, S);
 
     // Solicita a entrada dos valores inteiros i e j
     cout << "Digite os valores inteiros i e j: ";
