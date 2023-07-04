@@ -36,7 +36,7 @@ int main() {
         return 0;
     }
 
-    std::cout << "String convertida: " << input << endl;
+    cout << "String convertida: " << input << endl;
 
     return 0;
 }
