@@ -18,7 +18,7 @@ chegar na letra z, retorna para a letra a.
 #include <string>
 using namespace std;
 // Função para criptografar a string usando o código de César
-string cifraCesar(const string& texto, int desloc) { //desloc é o deslocamento
+    string cifraCesar(const string& texto, int desloc) { //desloc é o deslocamento
     string resultado = texto;
 
     for (char& c : resultado) {
