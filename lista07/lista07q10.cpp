@@ -12,7 +12,7 @@ escolher se quer converter para maiúsculo ou minúsculo.
 using namespace std;
 int main() {
     string input;
-
+//Peça para o usuário digitar uma string
     cout << "Digite uma string: ";
     getline(cin, input);
 
@@ -22,12 +22,13 @@ int main() {
     cout << "2. Converter para minúsculo" << endl;
     cout << "Opção: ";
     cin >> opcao;
-
+//Converta para maiúsculo se o usuário escolher a opção 1
     if (opcao == 1) {
         for (char& c : input) {
             c = toupper(c);
         }
-    } else if (opcao == 2) {
+ //Senão, se o usuário escolher a opção 2, concerta para minúsculo 
+   } else if (opcao == 2) {
         for (char& c : input) {
             c = tolower(c);
         }
